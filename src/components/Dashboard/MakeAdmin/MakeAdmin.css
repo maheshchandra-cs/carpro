@@ -1,0 +1,14 @@
+.adminForm {
+  display: flex;
+  align-items: center !important;
+}
+.adminForm .input {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.btn_admin {
+  padding: 9px 20px !important;
+  margin-left: 10px;
+}
