@@ -1,6 +1,6 @@
-# Car Service Booking Website
+# CarPro - Booking Website
 
-It's a single page web application. Users can book car repair services with payment, view their orders and give reviews. I used Firebase authentication for login. There is a separate admin dashboard where admin can update order status, add and remove services, and make another person admin.
+It's a single page web application. Users can book car repair services, pick-up and drop with payment, view their orders and give reviews. I used Firebase authentication for login. There is a separate admin dashboard where admin can update order status, add and remove services, and make another person admin.
 
 [Live Website](https://carpro-5326.web.app/)
 
@@ -18,7 +18,7 @@ It's a single page web application. Users can book car repair services with paym
 
 - Node JS
 - Express JS
-- MongoDB
+- FireStore
 
 ## How to setup in local desktop
 
