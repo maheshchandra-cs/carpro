@@ -62,7 +62,7 @@ const AddService = () => {
         <h4 className="primary__color">{loggedInUser.displayName}</h4>
       </div>
       <div className="sidebar__right p-3">
-        {admin ? (
+       {/* {admin ? ( */}
           <div className="form serviceFrom">
             <form onSubmit={handleSubmit(onSubmit)} className="from">
               <div className="form-top">
@@ -130,9 +130,9 @@ const AddService = () => {
               />
             </form>
           </div>
-        ) : (
+       {/* ) : (
           <NotAccess />
-        )}
+        )} */}
       </div>
     </>
   );

@@ -31,7 +31,7 @@ const NavbarComponent = () => {
       <Container>
         <Navbar.Brand>
           <Link className="links__color menu__icon primary__color" to={'/'}>
-            CarService
+            CarPro
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -56,7 +56,7 @@ const NavbarComponent = () => {
                   Booking List
                 </Link>
                 <Link className="links__color" to={'/admin/addReview'}>
-                  Give Review
+                  Feedback
                 </Link>
               </>
             )}

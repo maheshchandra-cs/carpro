@@ -40,7 +40,7 @@ const AddReview = () => {
   return (
     <>
       <div className="p-3 d-flex justify-content-between dashboard__menu">
-        <h3>Add Review</h3>
+        <h5>Please provide your valuable feedback</h5>
         <h4 className="primary__color">{loggedInUser.displayName}</h4>
       </div>
       <div className="addReview sidebar__right p-3">
@@ -70,7 +70,7 @@ const AddReview = () => {
               )}
             </div>
             <div className="form_group">
-              <label>Give Review</label>
+              <label>Comments(if any)</label>
               <textarea
                 rows="4"
                 cols="38"
@@ -85,7 +85,7 @@ const AddReview = () => {
               )}
             </div>
             <label htmlFor="" className="mt-4">
-              Give Star Rating
+              Rating
             </label>
             <div className="rating">
               <Box component="fieldset" mb={1} borderColor="transparent">

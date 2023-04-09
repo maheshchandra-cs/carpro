@@ -19,43 +19,44 @@ const Footer = () => {
                 <span>
                   <FontAwesomeIcon icon={faMapMarkerAlt} />
                 </span>
-                2112 Washington DC, USA
+                San Marcos TX, USA
               </li>
               <li>
                 <span>
                   <FontAwesomeIcon icon={faEnvelope} />
                 </span>
-                car.service@mail.com
+                carpro@gmail.com
               </li>
               <li>
                 <span>
                   <FontAwesomeIcon icon={faPhoneAlt} />
                 </span>
-                +12454352532443
+                +12345678910
               </li>
             </ul>
           </div>
         </Col>
         <Col md={6} lg={3}>
-          <h3>Our Service</h3>
+          <h3>Customer Support</h3>
           <ul className="f__service">
-            <li>ENGINE DIAGNOSTICS</li>
-            <li>LUBE, OIL AND FILTERS</li>
-            <li>BELTS AND HOSES</li>
-            <li>CAR WASHING</li>
+            <li>Help Desk</li>
+            <li>Contact us</li>
+            <li>Driver Rewards</li>
+            <li>Services</li>
+            <li>And many more .....</li>
           </ul>
         </Col>
-        <Col md={6} lg={3}>
+         <Col md={6} lg={3}>
           <h3>Our Team</h3>
           <ul className="f__service">
-            <li>Jerome Luel</li>
-            <li>Andrew Learoyd</li>
-            <li>Harry Nelis</li>
-            <li>Lucy Vernall</li>
-          </ul>
-        </Col>
+            <li>Pallavi Krishna Reddy</li>
+            <li>Mahesh Chandra Churi</li>
+            <li>Abhinay Kumar Singh</li>
+            <li>Satya Anusha Chintapilli</li>
+          </ul> 
+  </Col> 
         <Col md={6} lg={3}>
-          <h3>Working Hour</h3>
+          <h3>Working Hours</h3>
           <ul className="f__workingTime">
             <li>
               <span>Monday</span>
@@ -73,12 +74,14 @@ const Footer = () => {
               <span>Thursday</span>
               <span>8.00AM - 6.00 PM</span>
             </li>
+            <li>
+              <span>Friday</span>
+              <span>8.00AM - 6.00 PM</span>
+            </li>
           </ul>
         </Col>
       </Row>
-      <p className="text-center d-block">
-        Copy Right &copy; 2021 | All Right Reserved By Mofasser Hossain
-      </p>
+     
     </Container>
   );
 };
