@@ -12,7 +12,7 @@ const Footer = () => {
     <Container>
       <Row className="py-3">
         <Col md={6} lg={3}>
-          <h3 className="links__color menu__icon primary__color">CarService</h3>
+          <h3 className="links__color menu__icon primary__color">CarPro</h3>
           <div className="footer__icon">
             <ul>
               <li>
