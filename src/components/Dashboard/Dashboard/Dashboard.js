@@ -17,7 +17,7 @@ const Dashboard = () => {
       <div className="sidebar">
         <h3 className="home">
           <Link className="primary__color" to={'/'}>
-            CARSERVICE
+            CARPRO
           </Link>
         </h3>
         <Sidebar />

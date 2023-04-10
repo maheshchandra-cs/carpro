@@ -23,17 +23,8 @@ const About = () => {
           </Col>
           <Col md={{ span: 6, offset: 1 }} className="my-2">
             <h3>Welcome To Our Service</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-              reprehenderit inventore ad voluptatum expedita doloremque, animi
-              dolor laboriosam maiores atque perspiciatis velit deserunt eaque
-              eum quo natus delectus ea aliquam. Aperiam doloremque
-              voluptatibus, in aspernatur voluptates dicta animi vitae, fugit
-              obcaecati esse sapiente quasi distinctio dolorem voluptate facilis
-              cum aliquam possimus eaque repellendus? Iste, harum est! Dolorum
-              optio aliquam libero! Lorem ipsum dolor sit amet consectetur,
-              adipisicing elit. Illo fuga incidunt nobis eum iste facilis
-              quaerat reiciendis et, fugit sit?
+            <p classname="justify">
+            At CarPro, we pride ourselves on our commitment to customer satisfaction. We strive to provide our customers with the highest level of service, professionalism, and transparency. We believe that communication is key, and we always keep our customers informed throughout the service process.
             </p>
             <div className="icon">
               <span>

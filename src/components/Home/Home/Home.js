@@ -13,10 +13,10 @@ const Home = () => {
       <Header />
       <main>
         <About />
-        <Services />
-        <Review />
-        <Team />
-        <Blog />
+      {/*  <Services /> */}
+      {/*  <Review /> */}
+      {/* I used team.js file to add images of services*/}
+      <Team/>
       </main>
       <footer style={{ backgroundColor: '#e4ebef' }} className=" py-5">
         <Footer />

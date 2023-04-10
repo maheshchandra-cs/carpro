@@ -1,6 +1,7 @@
 import React from 'react';
 import './HeaderMain.css';
 import { Button } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 
 const HeaderMain = () => {
   return (
@@ -10,10 +11,14 @@ const HeaderMain = () => {
           Your trusted <span className="primary__color">auto repair</span> shop
         </h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aut
-          quidem temporibus quam nostrum at?
+        From routine maintenance to complex repairs, we've got you covered with our full-service car repair and maintenance offerings. Do you want to connect with us?
         </p>
-        <Button className="btn button">Appointment Now</Button>
+        <Link className="btn button" to={'/admin/addService'}>Book an Appointment</Link>
+        
+    
+        
+        
+ 
       </div>
     </div>
   );
