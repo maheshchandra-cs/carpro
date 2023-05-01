@@ -1,4 +1,6 @@
-This is a CarPro web application.
+Welcome to our CarPro web application.
+
+To get Started follow the instructions below:
 
 Clone the entire project using
 
